@@ -1,4 +1,3 @@
 tabela= [(2, 8),(5, 5),(9, 3),(1, 0),(3, 2),(6, 4),(1, 9),(10, 3),(2, 3),(1, 7)]
-aaa=sorted(tabela,key=itemgetter(0))
-aaa=sorted(tabela,key=itemgetter(1))
+aaa=sorted(tabela,key=lambda x:x[1])
 print(aaa)

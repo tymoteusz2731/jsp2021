@@ -10,6 +10,7 @@ jednosci = {
 x = [int(d) for d in str(tekst)]
 
 jednosci_odtylu = {slownie: liczba for liczba, slownie in jednosci.items()} #zamiana kolejności w słowniku
+print(jednosci_odtylu)
 
 for i in range(len(x)-1,-1,-1): #zaczyna od jedności i idzie w górę
     robocza = x[i] #przypisanie do lokalnej zmiennej

@@ -1,3 +1,4 @@
+import functools
 lista=[]
 dzwignia= True
 while dzwignia == True:
@@ -7,5 +8,5 @@ while dzwignia == True:
     else:
         lista.append(a)
 wyniki = list(map(int, lista))
+print("Mnożąc wszystkie wprowadzone elementy otrzymamy: ", functools.reduce(lambda a, b: a*b, wyniki))
 print("Dodając wszystkie wprowadzone elementy otrzymamy: ",sum(wyniki))
-

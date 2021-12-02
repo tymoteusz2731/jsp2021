@@ -7,7 +7,7 @@ jednosci = {
     "dwadzieścia": 20, "trzydzieści": 30, "czterdzieści": 40, "pięćdziesiąt": 50, "sześćdziesiąt": 60, "siedemdziesiąt": 70, "osiemdziesiąt": 80, "dziewięćdziesiąt": 90,
     "sto":100,"dwieście":200,"trzysta":300,"czterysta":400,"pięćset":500,"sześćset":600,"siedemset":700,"osiemset":800,"dziewięćset":900,"tysiąc":1000}
 
-x = [int(d) for d in str(tekst)]
+x = [int(d) for d in str(tekst)] #zamienia na int
 
 jednosci_odtylu = {slownie: liczba for liczba, slownie in jednosci.items()} #zamiana kolejności w słowniku
 print(jednosci_odtylu)

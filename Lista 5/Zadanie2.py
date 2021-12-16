@@ -8,9 +8,7 @@ jednosci = {
     "sto":100,"dwieście":200,"trzysta":300,"czterysta":400,"pięćset":500,"sześćset":600,"siedemset":700,"osiemset":800,"dziewięćset":900,"tysiąc":1000}
 
 x = [int(d) for d in str(tekst)] #zamienia na int
-
 jednosci_odtylu = {slownie: liczba for liczba, slownie in jednosci.items()} #zamiana kolejności w słowniku
-print(jednosci_odtylu)
 
 for i in range(len(x)-1,-1,-1): #zaczyna od jedności i idzie w górę
     robocza = x[i] #przypisanie do lokalnej zmiennej

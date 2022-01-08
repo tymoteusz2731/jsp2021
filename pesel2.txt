@@ -1,0 +1,27 @@
+nr PESEL: 65312429222
+
+ data urodzenia: 24-11-2065;	 p³eæ: kobieta 
+nr PESEL: 63031516964
+
+ data urodzenia: 15-3-1963;	 p³eæ: kobieta 
+nr PESEL: 02221653148
+
+ data urodzenia: 16-2-2002;	 p³eæ: kobieta 
+nr PESEL: 77010553280
+
+ data urodzenia: 5-1-1977;	 p³eæ: kobieta 
+nr PESEL: 83083051172
+
+ data urodzenia: 30-8-1983;	 p³eæ: mezczyzna 
+nr PESEL: 43011945311
+
+ data urodzenia: 19-1-1943;	 p³eæ: mezczyzna 
+nr PESEL: 56050239981
+
+ data urodzenia: 2-5-1956;	 p³eæ: kobieta 
+nr PESEL: 46231583923
+
+ data urodzenia: 15-3-2046;	 p³eæ: kobieta 
+nr PESEL: 98312367377
+
+ data urodzenia: 23-11-2098;	 p³eæ: mezczyzna 

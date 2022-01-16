@@ -33,11 +33,12 @@ while i < t:
     tablicax.append(x)
     i += 0.05
 
-fig, ax = plt.subplots()
-# plt.figure(1)
-# plt.subplots(1)
-# plt.plot(t,vy)
-# plt.figure(2)
-# plt.plot(t,x)
-# plt.figure(3)
-# plt.plot(t, s2)
+tablicat=[]
+i=0
+while i < t:
+    tablicat.append(i)
+    i += 0.05
+
+fig,axs = plt.subplots(2)
+axs[0].plot(tablicat,tablicavy)
+axs[1].plot(tablicax,tablicay)
